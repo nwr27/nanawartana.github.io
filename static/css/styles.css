@@ -1,0 +1,44 @@
+/* Pastikan navbar collapse di ukuran 900px ke bawah */
+@media (max-width: 600px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important; /* Sembunyikan collapse pada ukuran tertentu */
+  }
+
+  .navbar-expand-lg .navbar-toggler {
+    display: block !important; /* Tampilkan tombol toggle */
+  }
+
+  .navbar-expand-lg .navbar-collapse.show {
+    display: block !important; /* Tampilkan dropdown saat tombol di klik */
+  }
+}
+
+/* Navbar kembali normal di atas 900px */
+@media (min-width: 601px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important; /* Tampilkan navbar normal */
+  }
+
+  .navbar-expand-lg .navbar-toggler {
+    display: none !important; /* Sembunyikan tombol toggle */
+  }
+}
+
+h1.nama {
+  font-size: 2.5rem;
+  color: aqua;
+}
+
+/* Navbar tetap horizontal hingga ukuran 600px */
+@media (max-width: 600px) {
+  .navbar-nav {
+    flex-direction: column !important; /* Menu tersusun vertikal (collapse mode) */
+  }
+}
+
+/* Navbar tetap horizontal di atas 600px */
+@media (min-width: 601px) {
+  .navbar-nav {
+    flex-direction: row !important; /* Menu tetap horizontal */
+  }
+}
