@@ -1,0 +1,23 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.content-section {
+  padding-top: 5rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-brand span {
+  color: #0d6efd;
+}
+
+a.video-link {
+  cursor: pointer;
+  display: block;
+}
+
+/* dibawah ini adalah b */
