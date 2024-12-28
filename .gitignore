@@ -1,5 +1,6 @@
 .venv/*
 *.pyc
 .vscode/*
+.vscode
 .draft.html
 .draft.py
