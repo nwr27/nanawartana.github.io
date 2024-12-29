@@ -1,4 +1,5 @@
 .vscode/*
 .vscode
-
-static/img/*
+test1/*
+test2/*
+.draft.py
