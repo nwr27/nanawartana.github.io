@@ -14,3 +14,21 @@ section{
   /* padding-top: 80px; */
   padding-top: 5rem;
 }
+
+/* Tambahkan CSS baru di sini */
+
+/* Efek transisi dan transformasi pada gambar */
+#profile-img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer; /* Menambahkan kursor pointer untuk indikasi interaktif */
+}
+
+/* Efek saat di-hover */
+#profile-img:hover {
+  transform: scale(1.1); /* Membesar 10% */
+}
+
+/* Efek saat diklik (aktif) */
+#profile-img.active {
+  transform: scale(1.1);
+}
