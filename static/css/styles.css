@@ -1,16 +1,20 @@
 /* body{
   min-height: 5000px;
 } */
-.jumbotron{
-  padding-top:6rem;
+
+.bg-clr {
+  background-color: #ff5e32;
+}
+.jumbotron {
+  padding-top: 6rem;
   background-color: #e2edff;
 }
 
-#projects{
+#projects {
   background-color: #e2edff;
 }
 
-section{
+section {
   /* padding-top: 80px; */
   padding-top: 5rem;
 }
@@ -25,10 +29,10 @@ section{
 
 /* Efek saat di-hover */
 #profile-img:hover {
-  transform: scale(1.1); /* Membesar 10% */
+  transform: scale(1.5) translateY(10px); /* menggeser 10% */
 }
 
 /* Efek saat diklik (aktif) */
 #profile-img.active {
-  transform: scale(1.1);
+  transform: scale(1);
 }

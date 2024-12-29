@@ -20,26 +20,40 @@ document.addEventListener("click", (event) => {
 
 // Tambahkan JavaScript baru di sini
 
-// Mengganti gambar saat di-hover dan mengembalikannya saat tidak di-hover
 const profileImg = document.getElementById("profile-img");
 const originalSrc = "static/img/nana.jpg";
 const hoverSrc = "static/img/nana2.jpg";
+let isLocked = false;
 
+// Fungsi untuk mengubah gambar dan transformasi
+function setImage(src, locked) {
+  profileImg.src = src;
+  if (locked) {
+    profileImg.classList.add("locked");
+  } else {
+    profileImg.classList.remove("locked");
+  }
+}
+
+// Event listener untuk hover (mouseover dan mouseout)
 profileImg.addEventListener("mouseover", () => {
-  profileImg.src = hoverSrc;
+  if (!isLocked) {
+    setImage(hoverSrc, false);
+  }
 });
 
 profileImg.addEventListener("mouseout", () => {
-  profileImg.src = originalSrc;
+  if (!isLocked) {
+    setImage(originalSrc, false);
+  }
 });
 
-// Mengganti gambar saat diklik (toggle)
+// Event listener untuk klik
 profileImg.addEventListener("click", () => {
-  if (profileImg.classList.contains("active")) {
-    profileImg.src = originalSrc;
-    profileImg.classList.remove("active");
+  isLocked = !isLocked; // Toggle state
+  if (isLocked) {
+    setImage(hoverSrc, true);
   } else {
-    profileImg.src = hoverSrc;
-    profileImg.classList.add("active");
+    setImage(originalSrc, false);
   }
 });
