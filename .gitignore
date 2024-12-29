@@ -4,3 +4,6 @@
 .vscode
 .draft.html
 .draft.py
+
+**/img/*
+**/videos/*
