@@ -2,8 +2,8 @@
 *.pyc
 .vscode/*
 .vscode
-.draft.html
-.draft.py
+.draft.**
+.draft.**
 
 **/img/*
 **/videos/*
