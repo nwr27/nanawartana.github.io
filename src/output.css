@@ -745,6 +745,34 @@ video {
   max-width: 36rem;
 }
 
+.max-w-\[10px\] {
+  max-width: 10px;
+}
+
+.max-w-\[0px\] {
+  max-width: 0px;
+}
+
+.max-w-\[80px\] {
+  max-width: 80px;
+}
+
+.max-w-\[100px\] {
+  max-width: 100px;
+}
+
+.max-w-\[70px\] {
+  max-width: 70px;
+}
+
+.max-w-\[60px\] {
+  max-width: 60px;
+}
+
+.max-w-\[90px\] {
+  max-width: 90px;
+}
+
 .origin-bottom-right {
   transform-origin: bottom right;
 }
