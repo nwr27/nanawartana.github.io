@@ -5,7 +5,7 @@
 .draft.**
 .draft.**
 
-**/img/*
+# **/img/*
 **/videos/*
 
 node_modules/*
