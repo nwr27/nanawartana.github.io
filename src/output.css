@@ -706,8 +706,20 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -829,6 +841,10 @@ video {
   white-space: nowrap;
 }
 
+.text-balance {
+  text-wrap: balance;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -857,9 +873,27 @@ video {
   border-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-s {
+  border-inline-start-width: 1px;
+}
+
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));
+}
+
+.border-slate-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(30 41 59 / var(--tw-border-opacity, 1));
+}
+
+.border-slate-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(51 65 85 / var(--tw-border-opacity, 1));
 }
 
 .bg-primary {
@@ -894,6 +928,11 @@ video {
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
+}
+
+.bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
 }
 
 .fill-current {
@@ -983,6 +1022,22 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -993,6 +1048,10 @@ video {
 
 .font-\[\'Inconsolata\'\] {
   font-family: 'Inconsolata';
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl {
@@ -1028,6 +1087,14 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[0\] {
+  font-size: 0;
+}
+
+.text-\[0\.75rem\] {
+  font-size: 0.75rem;
 }
 
 .font-bold {
@@ -1078,6 +1145,41 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[0\.\] {
+  color: 0.;
+}
+
+.text-\[0\.75\] {
+  color: 0.75;
+}
+
+.text-\[0\.75re\2c \] {
+  color: 0.75re,;
+}
+
+.text-\[0\.75re\2c m\] {
+  color: 0.75re,m;
+}
+
+.text-pink-500 {
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity, 1));
+}
+
+.text-sky-500 {
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity, 1));
 }
 
 .opacity-60 {
@@ -1341,6 +1443,10 @@ body {
 
   .md\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .md\:w-12 {
+    width: 3rem;
   }
 
   .md\:scale-125 {
