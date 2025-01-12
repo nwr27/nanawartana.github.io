@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: Dank Mono;
+  font-family: Dank Mono, Helvetica, sans-serif;
 }
 
 .navbar-fixed {
