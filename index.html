@@ -44,6 +44,11 @@
                 <li class="group">
                   <a href="#contact" class="text-base text-slate-700 py-2 mx-8 flex group-hover:text-primary">Kontak</a>
                 </li>
+                <li class="group">
+                  <button id="language-toggle" class="py-2 flex" aria-label="Toggle Language">
+                    <img id="language-icon" src="src/img/nav/id.svg" alt="ID" width="28"/>
+                  </button>
+                </li>
               </ul>
             </nav>
           </div>
@@ -57,9 +62,9 @@
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
-            <h1 class="text-base font-semibold text-primary md:text-xl">Hai kamu👋, kenalin saya <span class="font-['Fira_Code'] block font-bold text-dark text-4xl mt-1 mb-2 lg:text-5xl">Nana Wartana</span></h1>
-            <h2 class="font-['Fira_Code'] font-medium text-secondary text-lg mb-5 lg:text-2xl">Multidisciplinary Engineer</h2>
-            <p class="font-medium text-secondary mb-10 leading-relaxed">
+            <h1 id="hero-greeting" class="text-base font-semibold text-primary md:text-xl">Hai kamu👋, kenalin saya <span class="font-['Fira_Code'] block font-bold text-dark text-4xl mt-1 mb-2 lg:text-5xl">Nana Wartana</span></h1>
+            <h2 id="hero-title" class="font-['Fira_Code'] font-medium text-secondary text-lg mb-5 lg:text-2xl">Multidisciplinary Engineer</h2>
+            <p id="hero-description" class="font-medium text-secondary mb-10 leading-relaxed">
               Engineer multidisiplin dengan keahlian dalam sistem tenaga listrik, MEP, kecerdasan buatan, jaringan komputer, dan robotik. Minat saya pada seni, teknik, dan olahraga, mencerminkan keseimbangan antara teknologi dan kreativitas
               serta kebugaran.
             </p>
@@ -99,9 +104,9 @@
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2">
-            <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
-            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Siapa Saya?</h2>
-            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+            <h4 id="about-heading" class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+            <h2 id="about-subheading" class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Siapa Saya?</h2>
+            <p id="about-description" class="font-medium text-base text-secondary max-w-xl lg:text-lg">
               Saya lahir di Majalengka, Jawa Barat dan menikmati hidup yang seimbang antara karier dan hobi. Saya memiliki minat besar di bidang seni, seperti melukis dan bermain musik terutama bermain gitar dan hampir semua alat musik
               lainnya. Selain itu, olahraga merupakan hobi saya seperti calisthenics, voli, renang, dan badminton yang saya jadikan untuk menjaga kesehatan dan kekuatan fisik. Di waktu luang, saya juga tertarik mengeksplorasi teknologi
               terkini dan mengembangkan keterampilan baru, seperti kecerdasan buatan machine learning, generatif AI, dan computer vision. Inspirasi hidup saya datang dari Sirah Nabawiyah Nabi Muhammad SAW dan tokoh sains seperti Sir Isaac
@@ -111,15 +116,15 @@
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2 lg:pt-10">
-            <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl">Pendidikan & Keahlian</h3>
-            <p class="font-medium text-base text-secondary mb-2 lg:text-lg">
+            <h3 id="education-skills-heading" class="font-semibold text-dark text-2xl mb-4 lg:text-3xl">Pendidikan & Keahlian</h3>
+            <p id="education-skills-description" class="font-medium text-base text-secondary mb-2 lg:text-lg">
               Perjalanan profesional saya dimulai dengan kuliah teknik elektro dan keterlibatan aktif di komunitas robotika, yang menjadi fondasi karir multidisiplin saya. Ketertarikan terhadap teknik muncul sejak sekolah, saat saya
               menyukai matematika, fisika, dan kerajinan. Di MTs, saya mengembangkan minat seni dengan bermain gitar, hingga menjuarai kompetisi gitar solo saat SMA. Selain itu, saya aktif dalam Olimpiade Matematika dan Astronomi,
               memperkuat kecintaan pada ilmu pengetahuan. Saat kuliah, saya memilih teknik tenaga listrik untuk mendalami fisika listrik dan bergabung dengan komunitas robotika, yang membuka wawasan saya tentang sistem robotik. Pengalaman
               ini membawa saya meraih juara nasional di Kontes Robot Indonesia. Setelah lulus, saya bekerja sebagai QA MEP Engineer, bertanggung jawab atas kualitas sistem mekanikal, elektrikal, dan plumbing pada bangunan gedung. Kini,
               sebagai AI Engineer, saya fokus pada solusi computer vision, manajemen database, dan jaringan IT, memadukan berbagai keahlian untuk menciptakan inovasi terbaik.
             </p>
-            <h3 class="text-secondary mb-2 text-sm">Keterampilan:</h3>
+            <h3 id="skills-heading" class="text-secondary mb-2 text-sm">Keterampilan:</h3>
             <div class="flex flex-wrap items-center">
               <!-- Github -->
               <a href="https://github.com/nwr27" target="_blank" class="w-9 h-9 mr-3 rounded-full flex items-center mb-3">
@@ -327,7 +332,7 @@
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-semibold text-lg text-primary mb-2">PROYEK</h4>
+            <h4 class="font-semibold text-lg text-primary uppercase mb-2">Proyek</h4>
             <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl md:text-4xl lg:text-5xl">Proyek 1</h2>
             <p class="font-medium text-md text-secondary md:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aperiam repudiandae! Nostrum quam vitae delectus? Id, ullam accusantium et, quasi nobis minima non sed veniam blanditiis minus porro natus ut.
@@ -390,9 +395,9 @@
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-semibold text-lg text-primary mb-2">RIWAYAT KARIR</h4>
-            <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl md:text-4xl lg:text-5xl">Pengalaman Praktik & Kerja</h2>
-            <p class="font-medium text-md text-secondary md:text-lg">
+            <h4 id="career-heading" class="font-semibold text-lg uppercase text-primary mb-2">Riwayat Karir</h4>
+            <h2 id="career-subheading" class="font-bold text-white text-3xl mb-4 sm:text-4xl md:text-4xl lg:text-5xl">Pengalaman Praktik & Kerja</h2>
+            <p id="career-description" class="font-medium text-md text-secondary md:text-lg">
               Sepanjang perjalanan karir, saya telah berkesempatan untuk terlibat dalam berbagai proyek dan bekerja dengan tim-tim hebat di perusahaan terkemuka. Setiap pengalaman memberikan wawasan baru dan semuanya memperkuat kemampuan
               saya di bidang teknologi dan manajemen proyek.
             </p>
